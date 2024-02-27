@@ -68,15 +68,15 @@ console.log("================================================================");
 
 /* ========================================================================== */
 
-function criamultiplicador(multiplicador) {
+function criamultiplicador1(multiplicador) {
   return function (n) {
     return n * multiplicador;
   };
 }
 
-const duplica2 = criamultiplicador(2);
-const triplica2 = criamultiplicador(3);
-const quadriplica2 = criamultiplicador(4);
+const duplica2 = criamultiplicador1(2);
+const triplica2 = criamultiplicador1(3);
+const quadriplica2 = criamultiplicador1(4);
 
 console.log(duplica2(4));
 console.log(triplica2(4));
