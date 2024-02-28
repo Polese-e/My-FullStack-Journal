@@ -38,7 +38,6 @@ function duplica(n) {
 function triplica(n) {
   return n * 3;
 }
-
 function quadriplica(n) {
   return n * 4;
 }
