@@ -4,7 +4,7 @@ original. Ele não modifica o array original, mas retorna um novo array com os
 resultados das transformações. */
 
 const numeros = [5, 50, 80, 1, 2, 3, 5, 8, 7, 11, 15, 22, 27];
-const numerosEmDobro = numeros.map((valor) => valor * 2);
+const numerosEmDobro = numeros.map((valor, indice, array) => valor * 2);
 
 console.log(numerosEmDobro);
 console.log("================================================================");
@@ -22,7 +22,7 @@ const pessoas = [
 ];
 const nomes = pessoas.map((obj) => obj.nome);
 const idades = pessoas.map((obj) => obj.idade);
-const comIds = pessoas.map(function (obj, indice) {
+const comIds = pessoas.map(function (obj, indice, array) {
   const newObj = { ...obj };
   newObj.id = indice;
   return newObj;
