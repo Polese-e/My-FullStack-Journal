@@ -1,3 +1,10 @@
+/* Em JavaScript, um objeto é uma coleção de pares chave-valor, onde as chaves 
+são strings (ou símbolos) e os valores podem ser de qualquer tipo de dado, como 
+números, strings, arrays, funções ou até mesmo outros objetos. Os objetos em 
+JavaScript são uma das principais estruturas de dados da linguagem e são 
+amplamente utilizados para representar dados estruturados de forma organizada 
+e acessível. */
+
 const pessoa = {
   nome: "Enzo",
   sobrenome: "Polese",
