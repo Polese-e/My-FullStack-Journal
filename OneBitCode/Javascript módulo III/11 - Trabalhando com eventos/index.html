@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Enviando Valores do DOM para o Javascript</title>
+    <title>Trabalhando com Eventos</title>
     <script src="./index.js" defer></script>
   </head>
   <body>
-    <h1>Enviando Valores do DOM para o Javascript</h1>
+    <h1>Trabalhando com Eventos no Javascript</h1>
     <hr />
 
     <h2>Registre-se!</h2>
@@ -26,7 +26,8 @@
         id="passwordConfirmation"
       />
       <br />
-      <button onclick="register(this.parentNode)">Registrar</button>
+      <button id="register-button">Registrar</button>
+      <button onclick="removeEvent()">Remover Event Listener</button>
     </section>
   </body>
 </html>
